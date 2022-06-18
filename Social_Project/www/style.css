@@ -1,0 +1,1556 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+
+body {
+  font-family: 'Raleway';
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+}
+
+.row{
+  background: #f9f9f9;
+  border-top: 0px;
+}
+
+.row.search-results{
+  background: white;
+}
+
+.row.top-10-podnikov{
+  /*background: white;*/
+}
+
+.row.top-10-produktov{
+  background: white;
+}
+
+.row.header-banner{
+  height: 800px;
+}
+
+.col-sm-12.herobanner{
+  background-image: url('herobanner.jpg');
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.herobanner-header{
+  background-color: #FFFFFF;
+  width: 40%;
+  float: right;
+  height: 100%;
+  padding-top: 10%;
+}
+
+.herobanner-header-text{
+  font-family: serif;
+  width:100%;
+  font-size:25px;
+  color: #666666;
+  text-align:center;
+  line-height: initial;
+  padding: 10%;
+}
+
+.herobanner-button-block{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    word-break: break-word;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+  height: 60%;
+  width: 60%;
+  align: left;
+}
+
+.logo-foot{
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid {
+  background-color: #FFFFFF;
+}
+
+.col-sm-10 {
+    width: 100%;
+}
+
+.col-sm-12 {
+    width: 100%;
+    height: 100%;
+}
+
+.mapa-podnikov{
+  background-color: rgba(59, 61, 64, 0.9)
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+}
+
+.navbar-brand{
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar-header {
+  background-color: #FFFFFF;
+  width: 200px;
+}
+
+.navbar-nav {
+  font-weight: 600;
+  background-color: #FFFFFF;
+  height: 100% ;
+  float: right;
+  margin-right: 15%;
+  letter-spacing: 0.1em;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #000;
+}
+
+.nav{
+  background-color: #FFFFFF;
+  height: 80% ;
+}
+
+.main-page{
+  display:block;
+  padding:9.5px;
+  margin:0 0 10px;
+  margin-top:10px;
+  line-height:20px;
+  word-wrap:break-word;
+  white-space:pre-wrap;
+}
+
+.main-page-text{
+  font-family: serif;
+  width:100%;
+  height:100%;
+  font-size:25px;
+  color: #666666;
+  text-align:center;
+  line-height: initial;
+}
+
+#button{
+  background-color: #80C6BE;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #ccc;
+  padding: 15px;
+}
+
+#button_jump_registracia{
+    background-color: #80C6BE;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #ccc;
+  padding: 15px;
+}
+#button_jump_kontakt{
+  background-color: #80C6BE;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #ccc;
+  padding: 15px;
+}
+#btn_rating{
+  background-color: #80C6BE;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #ccc;
+  padding: 15px;
+}
+
+.button-block{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button:hover{
+  background-color:white;
+  border: 1px solid black;
+}
+
+/* CSS KU KATALOGOM */
+
+/*#button2{
+  background-color: #80C6BE;
+  border: none;
+  text-align: center;
+  font-size: 100%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #ccc;
+  padding: 15px;
+}
+
+#button2:hover{
+  background-color:#3b3d40;
+  color: white;
+}
+
+.button-katalog-podnikov{
+  width: 50%; 
+  float: left; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-katalog-produktov{
+  margin-left: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vyber-katalogov{
+  width: 100%;
+}
+
+.vyber-katalogov-obrazky{
+  width: 100%;
+}
+
+.obr-podniky{
+  width: 50%; 
+  float: left; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.obr-produkty{
+  margin-left: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#obr-katalog{
+  box-shadow: 8px 5px 5px #CCC;
+  background: #ffffff;
+  display: inline-block;
+  margin: 55px 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.text-katalog-podnikov{
+  color: #3b3d40;
+  font-size: 17px;
+  width: 50%; 
+  float: left; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  line-height:20px;
+  text-align:center;
+  letter-spacing: 0.1em;
+}
+
+.text-katalog-produktov{
+  color: #3b3d40;
+  font-size: 17px;
+  margin-left: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  line-height:20px;
+  text-align:center;
+  letter-spacing: 0.1em;
+}
+
+.text-katalogy{
+  width: 100%;
+}
+
+.text-katalogy-zalomenie{
+  width: 50%;
+  word-wrap:break-word;
+  white-space:pre-wrap;
+  text-align: center;
+}
+
+.buttons-katalogy{
+  width: 100%;
+}
+
+#katalogy-podtext{
+  margin-top: 5%;
+}*/
+
+.top-podniky{
+  width: 100%;
+}
+
+.top-podnik{
+  width: 50%; 
+  float: left; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.top-podniky-tabulka{
+  margin-left: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-podnik-popis{
+  font-family: serif;
+  font-size: 20px;
+  color: #666666;
+  word-wrap:break-word;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.top-podnik-logo-img{
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px #ccc;
+}
+
+.top-podnik-logo{
+  justify-content: center;
+  display: flex;
+}
+
+.top-podnik-nazov{
+  font-family: Raleway;
+  font-size: 25px;
+  color: #3b3d40;
+  text-decoration: underline;
+  justify-content: center;
+  display: flex;
+}
+
+.my-row{
+  font-size: 20px;
+}
+
+.my-row:hover{
+  background-color: #878787;
+  color: white;
+}
+
+.ReactTable {
+    height: 100%;
+    background-color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    text-align-last: start;
+}
+
+
+table{
+  /*border-collapse:separate;*/ 
+  border-spacing: 0 1em;
+  /*overflow-x: auto;*/
+  width: 80%;
+  border-top: 0px !important;
+  margin-bottom: 25px;
+  text-align: left;
+
+}
+
+tr{
+  /*box-shadow:4px 4px 8px #ccc;*/
+  /*font-size: 14px !important;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*text-align-last: start;*/
+    background-color: white !important;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    border-top: 0px !important;
+    margin-bottom: 25px !important;
+}
+
+tr:hover {
+  background-color: #F0F0F0 !important;
+  color: #0E0E0E;
+  
+}
+
+/*tr:hover {
+  background-color: #878787;
+  color: white;
+}*/
+
+th{
+  text-align:center;
+}
+/*#table{
+    width: 100%;
+    margin-right: 20%;
+}*/
+
+
+#router-page-wrapper {
+    text-align: center;
+}
+
+.datatables.html-widget.html-widget-static-bound{
+  width: 100% !important;
+  /*box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);*/
+  border-top: 0px !important;
+  margin-bottom: 25px;
+  
+  
+}
+
+.dataTables_scroll{
+  margin-bottom: 25px !important;
+}
+
+.dataTables_length {
+  line-height: 3.5 !important;
+  padding: 15px 20px 10px 55px !important;
+}
+
+.dataTables_filter{
+  padding: 25px 55px 10px 10px;
+}
+
+.sorting{
+  text-align: left ;
+  padding: none;
+}
+
+.dataTables_wrapper {
+    margin-top: -20px;
+}
+
+
+.dataTables_scrollHead{
+  text-align:left !important;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+     border-bottom: none !important; 
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    padding: none !important;
+}
+
+th{
+    background-color: #80C6BE;
+    /*font-size: 14px;*/
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-spacing: none !important;
+    border-radius: 0px;
+    padding: 5px 5px;
+    /*display: flex;*/
+    line-height: 3.5;
+    border-bottom: none !important;
+    border-top: 0px;
+    margin-bottom: 25px;
+    text-align:left;
+}
+
+table.dataTable.display tbody td {
+    border-top: 0px !important;
+    margin-bottom: 25px;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 20px 10px;
+}
+
+.top-produkty-tabulka{
+  width: 50%; 
+  float: left; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.top-produkt{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+.top-produkty{
+  width: 100%;
+}
+
+.top-produkt-logo{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    float: left;
+    padding-top: 5%;
+}
+
+.top-produkt-logo-img{
+  border-radius: 50%;
+  box-shadow: 4px 4px 8px #ccc;
+}
+
+.top-produkt-popis{
+    font-family: serif;
+    font-size: 20px;
+    color: #666666;
+    word-wrap: break-word;
+    text-align: justify;
+    padding-top: 5%;
+    width: 50%;
+    margin-left: 50%;
+    padding-right: 3%
+}
+
+
+.top-produkt-nazov{
+  font-family: Raleway;
+  font-size: 25px;
+  color: #3b3d40;
+  text-decoration: underline;
+  justify-content: center;
+  display: flex;
+}
+
+.top-produkty-tabulka{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  height: 170px;
+}
+
+.foot-text-adresa{
+  width: 10%;
+  height: 100%;
+  font-weight: 500;
+  opacity: 0.3;
+  color: white;
+  margin: 0px;
+}
+
+.foot-text-soc{
+  width: 10%;
+  height: 100%;
+  font-weight: 500;
+  opacity: 0.3;
+  color: white;
+  margin: 0px;
+  
+}
+
+.mapa{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.mapa-nadpis{
+  color: white;
+}
+
+.mapa-podnikov-header{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  word-break: break-word;
+  letter-spacing: 0.1em;
+}
+
+
+
+/* MAPA */
+#htmlwidget-d3e0b79912263418143c{
+  height: 500px;
+}
+
+.soc-siete{
+  width: 15%;
+  padding-bottom: 2%;
+}
+
+.soc-siete-text{
+    width: 100%;
+    font-size: 17px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    color: rgb(255, 255, 255, 0.3);
+    letter-spacing: 0.1em;
+}
+
+.foot-left{
+    height: 100%;
+    float: left;
+    background-color: #3b3d40;
+}
+
+.foot-right{
+  height: 100%;
+  float: right;
+  background-color: #3b3d40;
+}
+
+.col-sm-7.foot-left{
+  height: 100%;
+  background-color: #3b3d40;
+}
+
+.col-sm-5.foot-right{
+  height: 100%;
+  background-color: #3b3d40;
+}
+
+.col-sm-5.footer-odkazy{
+    height: 100%;
+    background-color: #3b3d40;
+    margin-left: 0px;
+}
+
+.footer-odkazy-text{
+  padding-top: 10%;
+}
+
+.col-sm-2.footer-adresa{
+    height: 100%;
+    background-color: #3b3d40;
+    font-weight: 500;
+    color: white;
+    margin: 0px;
+}
+
+.footer-adresa-text{
+  width: 60%;
+  font-size: 17px;
+  padding-top: 17%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: rgb(255, 255, 255, 0.3);
+  letter-spacing: 0.1em;
+}
+
+.footer-copyright{
+  padding-top: 5%;
+}
+
+.odkazy-soc-siete{
+    font-size: 17px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    color: rgb(255, 255, 255, 0.3);
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    padding-right: 5%;
+}
+
+.odkazy-soc-siete:hover{
+  color: white;
+}
+
+/*  KATALOG PODNIKOV */
+
+.button-image{
+  height: 220px;
+  width: 220px;
+  border-radius: 32px;
+  position: center;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+  
+}
+.button-image:hover{
+  opacity: 1
+}
+.button-kategorie{
+  border-radius: 32px;
+  box-shadow: 4px 4px 8px #ccc;
+  border: 0px;
+  padding: 0px;
+}
+
+.center-div{
+  position: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nadpis-kategorie{
+  position: center;
+  text-align: center;
+  padding: 0px;
+}
+.spodok{
+  padding-top: 100px;
+  position: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.podnadpis{
+  font-weight: bold;
+  color: #666666;
+}
+.text-katalog{
+  font-family: "serif";
+  color: #666666;
+}
+
+.riadok-tlacidiel{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/*  REGISTRACIA  */
+
+
+.registracia-podniku-firstrow{
+  margin-top: 4%;
+  padding-top: 20px;
+  background-color: white;
+  vertical-align: middle;
+  text-align:center;
+  align-items: center;
+  display: block;
+}
+
+.stlpec{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.podnadpis-registracia{
+  font-weight: bold;
+  color: black;
+  overflow-wrap: break-word;
+  font-size: 30px;
+}
+
+.registracia-column-header{
+  display: inline-block;
+  vertical-align: middle;
+  width:80%;
+  line-height: initial;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  block-size: 170px;
+  font-family: "serif";
+  font-weight: 600;
+  text-align:center;
+  font-size: 50px;
+  color: black;
+  overflow-wrap: break-word;
+}
+
+.registracia-wellpanel{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+  min-height: 350px;
+  padding-top: 5%;
+  padding-bottom: auto;
+  border-radius: 25px;
+  width: 75%;
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.35);
+  background-image: url("registracia_icon.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  overflow: auto;
+}
+
+.h4-popis{
+    margin-top: 25%;
+    margin-bottom: auto;
+    font-weight: 60;
+    text-align: center;
+    font-size: 22px;
+    line-height: 150%;
+    color: black;
+    overflow-wrap: break-word;
+}
+
+.registracia-button-block{
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.registracia-podniku-secondrow{
+  display:block;
+  padding:9.5px;
+  margin:0 0 10px;
+  margin-top:10px;
+  line-height:20px;
+  word-wrap:break-word;
+  white-space:pre-wrap;
+}
+
+.wellpanel{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 35%);
+  border-radius: 20px;
+  display: table;
+  max-height: fit-content;
+  height: 450px;
+}
+
+.registracia-preco-wellpanel{
+    background-color: white;
+}
+
+.secondrow-vrchna-cast{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    padding-bottom: 4%;
+    border-bottom-color: #e0dede;
+    border-bottom-style: inherit;
+    font-size: 24px;
+    color: grey;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.secondrow-lavy-slpec{
+    text-align: center;
+    border-right-color: #e0dede;
+    border-right-style: inherit;
+    border-right-width: medium;
+}
+
+.nadpis-lavy-stlpec{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.zoznam{
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+    font-weight: 700;
+    color: grey;
+    padding-bottom: 2%;
+    line-height: 150%;
+}
+
+.secondrow-pravy-slpec{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+.nadpis-pravy-stlpec{
+    font-weight: 700;
+    color: grey;
+    font-size: 27px;
+    margin-top: 8%;
+}
+
+.registracia2-button-block{
+    margin-top: 40px;
+    margin-bottom: 8%;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registracia-podniku-thirdrow{
+    display: block;
+    line-height: 20px;
+    word-wrap: break-word;
+    white-space: none;
+    background-color: white;
+}
+
+.thirdrow-header{
+   margin-top: 5%;
+}
+
+.registracia-proces-wellpanel{
+    margin-top: 5%;
+    background-color: #f9f9f9;
+}
+
+.proces-slpec2{
+    border-left-color: #e0dede;
+    border-left-style: solid;
+}
+
+.proces{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    overflow: auto;
+    height: 240px;
+}
+
+.proces1{
+    background-image: url(tabulka_1.png);
+    border-bottom-color: #e0dede;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+.proces2{
+    background-image: url(tabulka_2.png);
+}
+
+.proces3{
+    background-image: url(tabulka_3.png);
+    border-bottom-color: #e0dede;
+    border-bottom-style: solid;
+    padding-bottom: 20px;
+}
+
+.proces4{
+    background-image: url(tabulka_hotovo.png);
+}
+
+.tabulka-popis{
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registracia-podniku-fourthrow{
+  background-color: #4e5052;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  word-break: break-word;
+  letter-spacing: 0.1em;
+}
+
+.fourthrow-header{
+   margin-top: 5%;
+}
+
+.registracia-formular-wellpanel{
+    margin-top: 5%;
+    min-width: 90%;
+    background: white;
+    color: gray;
+    margin-bottom: 5%;
+}
+
+.registracia-stlpec1{
+   width: 50%;
+}
+
+.registracia-stlpec2{
+    width: 50%;
+}
+
+.top-formular{
+  margin-top: 2%;
+}
+
+.bottom-formular{
+  margin-top: 10%;
+}
+
+.form-control{
+    width: 90%;
+    font-size: 22px;
+    height: fit-content;
+    border-style: none;
+    /*border-bottom-color: #b9b9b9;*/
+    border-bottom-style: solid;
+    /*border-bottom-width: 3px;*/
+}
+
+.form-group.shiny-input-container{
+    width: auto;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.control-label{
+    display: inline-flex;
+    max-width: 100%;
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #999999;
+    padding-top: 2%;
+    margin-left: -5%;
+}
+
+.selectize-input {
+    min-height: 40px;
+    max-height: auto;
+    width: 90%;
+    margin-right: 50px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.selectize-dropdown-content {
+    max-height: 100px;
+    overflow-y: auto;
+    background: white;
+    text-align: left;
+    height: 200px;
+}
+
+.shiny-options-group{
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.registracia-formular-button-block{
+    margin-top: 40px;
+    margin-bottom: 3%;
+    font-size: 21px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .proces-slpec2 {border-left-style: none;}
+  .proces2 {
+    border-bottom-color: #e0dede;
+    border-bottom-style: solid;
+    }
+  .secondrow-lavy-slpec {
+    border-bottom-color: #e0dede;
+    border-bottom-style: inherit;
+    border-right-style: none;
+  }
+  .registracia-stlpec1{
+    width: 100%;
+  }
+   .registracia-stlpec2{
+    width: 100%;
+  }
+  .registracia-formular-button-block{
+    margin-top: 60px;
+  }
+  .bottom-formular{
+    margin-top: 5%;
+  }
+}
+
+.row.o-nas-banner{
+  height: 250px;
+}
+
+.col-sm-12.o-nas-background{
+  background-image: url('banner-o-nas3.png');
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.o-nas-nadpis{
+  background-color: white;
+  opacity: 0.7;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.o-nas{
+  padding-top: 80px;
+}
+
+.row.o-nas-popis-projekt{
+  background-color: white;
+}
+
+.col-sm-6.o-nas-popis-right{
+    height: 100%;
+}
+
+.o-nas-logo{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.o-nas-logo-popis{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+}
+
+.sto-farebne{
+  color: #80C6BE;;
+}
+
+.o-nas-popis-text-left{
+  font-family: serif;
+  width: 80%;
+  font-size: 30px;
+  color: #666666;
+  text-align: center;
+  line-height: 50px;
+  padding: 10%;
+  margin-left: 10%;
+}
+
+.o-nas-popis-nadpis{
+  margin-top: 5%;
+}
+
+.row.o-nas-popis-projekt-bottom{
+  background-color: white;
+}
+
+.o-nas-popis-bottom-text{
+  font-family: serif;
+  width: 80%;
+  font-size: 30px;
+  color: #666666;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10%;
+  padding-bottom: 3%;
+}
+
+
+.o-nas-preco-text-right{
+  font-family: serif;
+  width: 70%;
+  font-size: 30px;
+  color: #666666;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
+
+.o-nas-preco-logo-img{
+  width: 80%;
+  height: auto;
+  border-radius: 32px;
+  box-shadow: 4px 4px 8px #ccc;
+  margin-left: 15%;
+}
+
+.o-nas-preco-logo-pozadie{
+    background-image: url(registracia_icon.png);
+    background-size: contain;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+/* KONTAKT */
+
+.kontakt-firstrow{
+  text-align: center;
+  font-weight: 600;
+  word-break: break-word;
+  letter-spacing: 0.1em;
+}
+
+.kontakt-header{
+  margin-top: 10%;
+}
+
+.kontakt-left{
+  margin-top: 2%;
+}
+
+.kontakt-wellpanel{
+    width: 80%;
+    margin-top: 8%;
+    background-color: white;
+    height: fit-content;
+}
+
+.kontakt-right{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.kontakty-wellpanel{
+    height: fit-content;
+    width: 90%;
+    box-shadow: 0px 0px 10px 4px rgb(210 160 160 / 35%);
+    display: inline-table;
+}
+
+.kontakt-right-wellpanel1{
+    background-color: #7fc0ba;
+}
+
+.kontakt-right-wellpanel2{
+    background-color: #a1d3d6;
+}
+
+.kontakt-right-wellpanel3{
+    background-color: #acdad2;
+}
+
+.kontakt-wellpanel-header{
+    color: white;
+    font-size: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontakt-wellpanel-udaje{
+    margin-top: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.kontakt-obrazky{
+    height: 75px;
+    width: auto;
+    float: left;
+    margin: 5px 0px 0px 8px;
+}
+
+.form-group.shiny-input-container{
+  margin-bottom:2%;
+}
+
+.search-title{
+  margin-left:10%;
+  margin-top:30px;
+}
+
+.search-results-title{
+  margin-left:10%;
+  margin-bottom:40px;
+}
+
+
+tbody tr.odd{
+  background-color:red;
+}
+
+
+#mnd{
+  color:red;
+  font-size:30px;
+}
+
+#mnd-txt{
+  font-size:20px;
+}
+
+
+#global_search{
+  width:30%;
+}
+
+.sorting_disabled{
+  text-align:center;
+}
+
+/* stranka podniku  */
+
+.text-podnik{
+  font-family: "serif";
+  color: #666666;
+  font-size: 22px;
+}
+
+.kategoria-nadpis{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #3b3d40;
+}
+
+.podnik-info-fluidrow{
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.col-sm-12.podnik-background-image{
+  background-image: url('cover-podnik.jpg');
+  background-size: cover;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.podnik-image{
+  height: 50px;
+  width: 50px;
+  border-radius: 32px;
+  box-shadow: 4px 4px 8px #ccc;
+}
+
+.podnik-nadpis{
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hierarchia{
+  padding-left: 20px;
+  
+}
+.lavy_podnik{
+  text-align: center;
+  align-content: center;
+  
+}
+
+.podnadpisy{
+  font-weight: bold;
+  text-align: left;
+  padding-top: 50px; 
+}
+
+.kontakt-image{
+  height: 50px;
+  width: 35px;
+  display: inline;
+}
+
+/* hodnotenie */
+
+.ratings {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block; 
+  color: #b1b1b1;
+  overflow: hidden;
+}
+
+.full-stars{
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fde16d;
+  
+}
+
+.empty-stars:before,
+.full-stars:before {
+  content: "\2605\2605\2605\2605\2605";
+  font-size: 44pt; /* Make this bigger or smaller to control size of stars*/
+}
+
+.empty-stars:before {
+  -webkit-text-stroke: 1px #848484;
+}
+
+.full-stars:before {
+  -webkit-text-stroke: 1px orange;
+}
+
+/* Webkit-text-stroke is not supported on firefox or IE */
+/* Firefox */
+@-moz-document url-prefix() {
+  .full-stars{
+    color: #ECBE24;
+  }
+}
+/* IE */
+<!--[if IE]>
+  .full-stars{
+    color: #ECBE24;
+  }
+<![endif]-->
+
+.rating_number{
+  display: inline;
+  font-weight: bold;
+ 
+}
+
+/*slider*/
+.irs-bar {
+  width: 100%;
+  height: 10px; 
+  background: #80C6BE; 
+}
+
+.irs-bar-edge {
+  background: #80C6BE; 
+  height: 10px; 
+  border-radius: 15px 15px 15px 15px;
+}
+.irs-line {
+  height: 10px;
+}
+
+.irs-grid-text {
+  font-family: 'arial'; 
+  color: black
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.irs-max {
+  font-family: 'arial'; 
+  font-size: 20px;
+  color: black;
+  background: transparent;
+}
+
+.irs-min {
+  font-family: 'arial'; 
+  font-size: 20px;
+  color: black;
+  background: transparent;
+}
+
+.irs-single {
+  color:black;
+  font-size: 20px;
+  background: transparent;
+  
+}
+.irs-slider {
+  width: 15px; 
+  height: 15px; 
+  top: 22px;
+  
+}
+
+.slider{
+  width: 60%;
+  margin-left: 17%;
+  margin-right: 25%;
+  padding-bottom: 30px;
+}
+
+.fluidrow_produkty_podniku{
+  padding-left: 70px; 
+  padding-right: 70px; 
+  padding-bottom: 70px
+}
+
+.search-res-table{
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+table.dataTable.no-footer{
+  border-bottom: None;
+}
+
+table.display.dataTable.no-footer{
+  width: 100%;
+}
+
+#datatable.datatables.html-widget.html-widget-output.shiny-bound-output{
+  margin-left: 5%;
+
+}
+
+#produkt_nadpiss.shiny-text-output.shiny-bound-output{
+  margin-left: 50%;
+  font-size: 30px;
+}
+
+#podnik_nadpiss.shiny-text-output.shiny-bound-output{
+  margin-left: 50%;
+  font-size: 30px;
+}
